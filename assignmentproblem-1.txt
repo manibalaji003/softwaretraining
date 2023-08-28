@@ -1,0 +1,24 @@
+Day: 1 28/8/23
+Problem: 1
+
+Circular Linked List Insertion At Position
+You are given a circular linked list of size N. You need to insert an element data just after the given position pos.
+The position of first element is 1. If the given position is greater than N, then don't insert anything as it is not possible.
+
+Example 1:
+
+Input:
+LinkedList: 2->4->6->7->5->1->0
+(the first and last node is connected,
+i.e. 0 --> 2)
+position = 7,data = 99
+Output: 2 4 6 7 5 1 0 99
+
+Example 2:
+
+Input:
+LinkedList: 1->2->3->4->5
+(the first and last node is connected,
+i.e. 5 --> 1)
+position = 6, element = 10
+Output: 1 2 3 4 5 
